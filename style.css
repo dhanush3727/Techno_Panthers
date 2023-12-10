@@ -152,7 +152,7 @@ body {
   margin: 0 30px;
   outline: none;
 }
-.show {
+.eye {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -184,7 +184,7 @@ body {
     transition: all 0.3s;
   }
   .show {
-    width: 30%;
+    width: 280px;
   }
   .nav-link {
     margin-right: 0;
@@ -226,9 +226,6 @@ body {
   }
   .menu-bar.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-  }
-  .show {
-    width: 20px;
   }
 }
 
