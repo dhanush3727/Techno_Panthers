@@ -193,14 +193,19 @@ body {
     margin-right: 0;
   }
   .nav-item {
-    margin-bottom: 30px;
+    padding-top: 20px;
   }
   .nestedList {
     padding-top: 10px;
     position: relative;
+    height: 100%;
   }
   .nestedList a {
+    font-size: 0.9rem;
     position: relative;
+  }
+  .nav-item:nth-child(2):hover .nestedList {
+    height: 100%;
   }
   .nestedList a::after {
     content: "";
@@ -209,7 +214,7 @@ body {
     height: 2px;
     left: 0;
     width: 0;
-    top: 20px;
+    top: 23px;
     transform: scale(0);
     transition: 0.3s;
   }
