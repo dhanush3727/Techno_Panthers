@@ -18,12 +18,12 @@ body {
   justify-content: space-between;
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  background-color: white;
 }
 .logo {
   display: flex;
 }
-.logo h3 {
+.logo h1 {
+  color: orangered;
   margin-left: 30px;
 }
 .nav-list {
@@ -31,7 +31,7 @@ body {
   display: flex;
 }
 .nav-link {
-  color: black;
+  color: blue;
   text-decoration: none;
   position: relative;
   margin-right: 30px;
@@ -39,7 +39,7 @@ body {
 .nav-link::after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: blue;
   height: 2px;
   left: 0;
   width: 0;
@@ -64,7 +64,7 @@ body {
 }
 .nestedList a {
   text-decoration: none;
-  color: black;
+  color: blue;
 }
 .nav-item:nth-child(2):hover .nestedList {
   height: 180px;
@@ -79,7 +79,7 @@ body {
   display: block;
   border-radius: 20px;
   margin-top: 5px;
-  background-color: black;
+  background-color: blue;
   transition: all 0.3s;
 }
 
@@ -88,6 +88,7 @@ body {
   margin-top: 50px;
 }
 .course h1 {
+  color: orangered;
   text-align: center;
 }
 .course-card {
@@ -96,6 +97,8 @@ body {
   grid-template-columns: 300px 300px;
 }
 .card {
+  border: 1px solid lightblue;
+  border-radius: 10px;
   text-align: center;
   padding: 20px;
   margin: 30px;
@@ -106,9 +109,11 @@ body {
   color: black;
 }
 .card h3 {
+  color: orangered;
   border-radius: 30px;
 }
 .card ul {
+  color: blue;
   line-height: 2;
   padding-top: 10px;
   list-style: none;
@@ -210,7 +215,7 @@ body {
   .nestedList a::after {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: blue;
     height: 2px;
     left: 0;
     width: 0;
@@ -257,11 +262,11 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .logo {
     display: block;
   }
-  .logo h3 {
+  .logo h1 {
     margin-left: 0;
   }
 }
